@@ -96,6 +96,8 @@ li :active{
     font-size: larger;
 }
 
+/*--------------------------*/
+
 .presentation{
     display: flex;
 }
@@ -123,13 +125,28 @@ li :active{
     position: relative;
     border: rgb(129, 128, 125) dotted;
 }
+
+/*--------------------------*/
+
+.liste {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
 .terrain
 {
     display: flex;
     border: rgb(254, 253, 253) double;
     height: 7cm;
     position: relative;
-
+    border-radius: 15px;
 }
 
 .titreterrain{
