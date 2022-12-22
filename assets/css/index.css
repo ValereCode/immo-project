@@ -7,6 +7,7 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 header{
     background-color: rgb(30, 28, 28);
     width: auto;
@@ -14,8 +15,9 @@ header{
 }
 
 main{
-    background-color: rgb(248, 206, 153);
+    /*background-color: rgb(248, 206, 153);*/  /* J'ai pris le background de container fluid */
     flex-grow: 1;
+    margin: auto auto 20px auto;
 }
 
 .logo{
@@ -97,9 +99,14 @@ li :active{
 }
 
 /*--------------------------*/
+.container-fluid { 
+  margin-top: 30px;   /* Pour faire voir le texte déroulant !!! */
+  background-color: wheat;
+}
 
 .presentation{
     display: flex;
+    border-radius: 20px;
 }
 
 .titrepresentation{
@@ -109,6 +116,8 @@ li :active{
     color: rgb(5, 102, 32);
     font-style:oblique;
     font-size:x-large;
+    border-radius: 25px 0 0 25px;
+
 }
 
 .motpresentation{
@@ -119,6 +128,7 @@ li :active{
     font-style:oblique;
     text-align: justify;
     font-size: larger;
+    border-radius: 0 25px 25px 0;
 }
 
 .espace{
@@ -136,8 +146,7 @@ li :active{
     align-items: center;
     gap: 16px;
     max-width: 1400px;
-    margin: 0 auto;
-    padding: 20px 10px;
+    padding: 20px 0 0 10px;
 }
 
 .terrain
@@ -147,12 +156,14 @@ li :active{
     height: 7cm;
     position: relative;
     border-radius: 15px;
+    border: 2px solid;
+    background-color: rgb(255, 255, 255);
+    margin: 0.5px;
 }
 
 .titreterrain{
-    background-color: rgb(233, 195, 162);
     padding:  90px 0px 4px 22px;
-    width: 180px;
+    width: 100%;
     text-align:start;
     color: blue;
     font-style:oblique;
@@ -160,21 +171,27 @@ li :active{
 }
 
 .imageterrain{
-    margin: 3%;
-    height: 93%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
 }
 
 .terraintext{
     position: relative;
     text-align: start;    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;   
     font-size:large;
-    margin: 2% 0% 1% 2%;
+    padding: 2px 0px 4px 2px;
     left: -3%; 
 }
 
+.terrain:hover {
+    background-color: greenyellow;
+    
+}
+
+/*---------------------------------------------------*/
+
 footer{
-    background-color: white;
+    background-color: rgb(108, 170, 169);
 }
 
 .logomoov{
@@ -266,7 +283,9 @@ footer{
     font-family:monospace;
 }
 
+/*---------------------------------------------------*/
 
+/*
 @media only screen and (max-width: 600px) {
     header{
         background-color: rgb(199, 44, 44);
@@ -303,3 +322,4 @@ footer{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
   }
+  */
