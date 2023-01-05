@@ -83,7 +83,7 @@ li :visited{
 }
 
 li :hover{
-    color: rgb(46, 254, 4);
+    color: rgb(223, 150, 72);
     border-radius: 5px;
 }
 
@@ -144,47 +144,48 @@ li :active{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 32px;
     max-width: 1400px;
     padding: 20px 0 0 10px;
 }
 
-.terrain
-{
+.terrain {
     display: flex;
+    gap: 2px;
     border: rgb(254, 253, 253) double;
-    height: 7cm;
-    position: relative;
+    height: 200%;
     border-radius: 15px;
-    border: 2px solid;
     background-color: rgb(255, 255, 255);
-    margin: 0.5px;
+    margin: auto;
+    padding: auto;
 }
 
+/*---------------*/
 .titreterrain{
     padding:  90px 0px 4px 22px;
     width: 100%;
-    text-align:start;
+    text-align: center;
     color: blue;
-    font-style:oblique;
-    font-size:x-large;
+    
 }
+/*---------------*/
 
 .imageterrain{
     height: 100%;
     width: 100%;
+
 }
 
-.terraintext{
+.terraintext {
     position: relative;
-    text-align: start;    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;   
+    text-align: start;   
+    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;   
     font-size:large;
-    padding: 2px 0px 4px 2px;
-    left: -3%; 
+
 }
 
 .terrain:hover {
-    background-color: greenyellow;
+    background-color: rgb(188, 226, 132);
     
 }
 
