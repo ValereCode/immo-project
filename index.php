@@ -52,7 +52,7 @@
                         </div>
                         
                     </div>
-                    
+                    <!--==================================================-->
                     <div class="terrain col-xs-5">
                         <div class="titreterrain col-xs-3"><strong>Exemples de maisons en vente</strong></div>
         
