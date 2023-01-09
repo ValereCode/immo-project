@@ -1,0 +1,40 @@
+
+.liste{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    max-width: 1400px;
+    padding: 20px 0 0 10px;
+}
+
+.terrain {
+    display: flex;
+    gap: 2px;
+    border: rgb(254, 253, 253) double;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: auto;
+    min-height: 200px
+}
+
+.imageterrain{
+    border-radius: 15px;
+    height: 100%;
+}
+
+.terraintext {
+    text-align: start;   
+    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;   
+    font-size:large;
+
+}
+
+.terrain:hover {
+    background-color: rgb(188, 226, 132);
+    
+}
+

@@ -1,0 +1,46 @@
+.textdefilant{
+    background-color: rgb(192, 73, 73);
+    font-style:oblique;
+    color:white;
+    font-size: larger;
+}
+
+
+/*--------------------------*/
+
+.presentation{
+    border-radius: 20px;
+}
+
+.titrepresentation{
+    background-color: rgb(233, 195, 162);
+    padding:  30px 20px 4px 22px;
+    position: relative;
+    color: rgb(5, 102, 32);
+    font-style:oblique;
+    font-size:x-large;
+    border-radius: 25px 0 0 25px;
+
+}
+
+.motpresentation{
+    background-color: rgb(48, 67, 67);
+    padding: 1%;
+    position: relative;
+    color: rgb(252, 253, 254);
+    font-style:oblique;
+    text-align: justify;
+    font-size: larger;
+    border-radius: 0 25px 25px 0;
+}
+
+.espace{
+    position: relative;
+    border: rgb(129, 128, 125) dotted;
+}
+
+/*--------------------------*/
+
+#fight {
+    background-color: rgb(93, 8, 103);
+}

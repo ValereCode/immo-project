@@ -1,6 +1,11 @@
+/*
+header {
+    border: 2px solid black;
+}
+
 html, body{
     height: 100%;
-     margin: 0%;
+    margin: 0%;
 }
 
 body{
@@ -8,14 +13,8 @@ body{
     flex-direction: column;
 }
 
-header{
-    background-color: rgb(30, 28, 28);
-    width: auto;
-    height: 70px;
-}
-
 main{
-    /*background-color: rgb(248, 206, 153);*/  /* J'ai pris le background de container fluid */
+    /*background-color: rgb(248, 206, 153);*/  /* J'ai pris le background de container fluid *
     flex-grow: 1;
     margin: auto auto 20px auto;
 }
@@ -43,12 +42,12 @@ a{
     text-decoration: none;
 }
 
-/* lien non visité */
+/* lien non visité *
 a:link {
     color: rgb(3, 19, 165);
   }
 
-  /* lien visité */
+  /* lien visité *
 a:visited {
     color: rgb(3, 19, 165);
   }
@@ -58,7 +57,7 @@ a:hover{
     color: rgb(4, 155, 29);
 }
 
-  /* lien sélécté */
+  /* lien sélécté *
   a:active {
     color: rgb(194, 7, 7);
 }
@@ -90,19 +89,9 @@ li :hover{
 li :active{
     color: red;
 }
+*
 
-.textdefilant{
-    background-color: rgb(192, 73, 73);
-    font-style:oblique;
-    color:white;
-    font-size: larger;
-}
-
-/*--------------------------*/
-.container-fluid { 
-  margin-top: 30px;   /* Pour faire voir le texte déroulant !!! */
-  background-color: wheat;
-}
+/*--------------------------*
 
 .presentation{
     display: flex;
@@ -136,7 +125,7 @@ li :active{
     border: rgb(129, 128, 125) dotted;
 }
 
-/*--------------------------*/
+/*--------------------------*
 
 .liste {
     display: flex;
@@ -160,7 +149,7 @@ li :active{
     padding: auto;
 }
 
-/*---------------*/
+/*---------------*
 .titreterrain{
     padding:  90px 0px 4px 22px;
     width: 100%;
@@ -168,13 +157,9 @@ li :active{
     color: blue;
     
 }
-/*---------------*/
+/*---------------*
 
-.imageterrain{
-    height: 100%;
-    width: 100%;
 
-}
 
 .terraintext {
     position: relative;
@@ -189,7 +174,7 @@ li :active{
     
 }
 
-/*---------------------------------------------------*/
+/*---------------------------------------------------*
 
 footer{
     background-color: rgb(108, 170, 169);
@@ -323,4 +308,4 @@ footer{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
   }
-  */
+  
