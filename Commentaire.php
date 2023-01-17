@@ -5,6 +5,7 @@
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         
+        <link rel="stylesheet" href="assets/css/entete.css">
         <link rel="stylesheet" href="assets/css/index.css" />
         <link rel="stylesheet" href="assets/css/Commentaire.css" />
         <title>first fight</title>
@@ -12,7 +13,7 @@
     <body>
         <!-- L'en-tete -->
         <?php
-            include "assets/composants/header.php";
+            include "assets/composants/header.html";
         ?>
 
         <main>
@@ -26,7 +27,7 @@
         
         <!-- Le pied de page -->
         <?php
-            include "assets/composants/footer.php";
+            include "assets/composants/footer.html";
         ?>
 
     </body>
