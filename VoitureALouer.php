@@ -28,7 +28,7 @@
        
         
         <main>
-        <div class="test">maison à louer</div>
+        <div class="test">voiture à louer</div>
             <section>
                 <div class="container-fluid">
                     <marquee  class="textdefilant mt-1">
@@ -54,8 +54,7 @@
                     </div>
                 </div>
             </section>
-          
-
+         
             <section>
                 <div class="container">
                     <div class="row g-4">
@@ -77,22 +76,22 @@
                         
                     ?>
                     <?php
-                        $recipesStatement = $conn->prepare('SELECT * FROM maisonALouer');
+                        $recipesStatement = $conn->prepare('SELECT * FROM Voiture');
                     ?>
                     <?php
                         $recipesStatement->execute();
                         $result = $recipesStatement->fetchAll();
             
-                        foreach ($result as $maison) {
+                        foreach ($result as $voiture) {
                             echo '<div class="col-12 col-sm-6 col-md-4 col-xl-3">';
                             echo '<div class="card my-4 shadow p-3 mb-5 bg-body rounded" style="width: 18rem;"">';
-                            echo '<img src="' . $maison['photo'] . '" class="card-img-top imageterrain" style="height: 15rem;" alt="...">';
+                            echo '<img src="' . $voiture['photo'] . '" class="card-img-top imageterrain" style="height: 15rem;" alt="...">';
                             echo '<div class="card-body">';
-                            echo '<h5 class="card-title">' . $maison['titre'] . '</h5>';
-                            echo '<p class="card-text"><strong>Numéro:</strong> ' . $maison['Numéro'] . '</p>';
-                            echo '<p class="card-text"><strong>Surface:</strong> ' . $maison['Surface'] . ' </p>';
-                            echo '<p class="card-text"> <strong>Lieu:</strong> ' . $maison['Lieux'] . '</p>';
-                            echo '<p class="card-text"> <strong> Prix:</strong> ' . $maison['Prix'] . ' fcfa</p>';
+                            echo '<h5 class="card-title">' . $voiture['titre'] . '</h5>';
+                            echo '<p class="card-text"><strong>Numéro:</strong> ' . $voiture['Numéro'] . '</p>';
+                            echo '<p class="card-text"><strong>Marque:</strong> ' . $voiture['Marque'] . ' </p>';
+                            //echo '<p class="card-text"> <strong>Lieu:</strong> ' . $voiture['Lieux'] . '</p>';
+                            echo '<p class="card-text"> <strong> Prix:</strong> ' . $voiture['Prix'] . ' fcfa</p>';
                             echo '<a href="#" class="btn btn-primary mt-2" type="button">En savoir plus</a>';
                             echo '</div>';
                             echo '</div>';
