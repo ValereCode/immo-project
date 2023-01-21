@@ -30,7 +30,7 @@
         <main class="bg-success bg-opacity-10">               
             <section>
                 <div class="container-fluid">
-                    <marquee  class="textdefilant">
+                    <marquee  class="textdefilant mt-1">
                         La communauté first fight est toute heureuse de vous compter parmi ses clients et vous remercie pour votre confiance !
                     </marquee>
                 </div>
